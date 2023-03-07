@@ -136,7 +136,28 @@ Note: Currently Visual QA, Conversational QA and Table QA are far from complete.
 | FinQA ([Chen et al., 2020](https://aclanthology.org/2021.emnlp-main.300/)) | Financial | Financial reports | 8.3K | 2.8K | EN | D: table & text
 | HybridQA ([Chen et al., 2020](https://aclanthology.org/2020.findings-emnlp.91/)) | Wikipedia | Wikipedia | 70K | 13K | EN | D: table & text; Multi-hop
 | WikiSQL ([Zhong et al., 2017](https://arxiv.org/abs/1709.00103)) | Wikipedia | Wikipedia | 81K | 2.4K | EN | Q:NL & SQL
-| WikiTableQ([Pasupat et al., 2015](https://aclanthology.org/P15-1142/)) | Wikipedia | Wikipedia  | 22K | 2K | EN | 
+| WikiTableQ ([Pasupat et al., 2015](https://aclanthology.org/P15-1142/)) | Wikipedia | Wikipedia  | 22K | 2K | EN | 
+
+## Multilingual QA 
+| Dataset (paper) | Domain | Source | \# QA pairs | \# Lang | Note
+| ------------- |:----- |:----- |:----- |:----- |:----- |
+| MKQA([Longpre et al., 2021](https://arxiv.org/abs/2007.15207)) | Open | NQ | 260K | 26 | No D; Q-A aligned across lang (human translate)
+| XOR QA([Asai et al., 2020](https://arxiv.org/abs/2010.11856)) | Open | TydiQA | 40K | 7 | A: only cross-lang answers
+| TydiQA ([Clark et al., 2020](https://arxiv.org/abs/2003.05002)) | Open | Wikipedia | 240K | 11 | Q,A: from original language
+| XQuAD ([Artetxe et al., 2020](https://aclanthology.org/2020.acl-main.421/)) | Wikipedia | SQuAD | 13K | 11 | Q,A,D: aligned cross lang (human translate)
+| MLQA ([Lewis et al., 2020](https://aclanthology.org/2020.acl-main.653/)) | Wikipedia | Wikipedia | 47K | 8 | Avg 4-way parallel (Q,A: human translate)
+| XQA ([Liu et al., 2019](https://aclanthology.org/P19-1227/)) | Wikipedia | Wikipedia | 60K | 9 | training set: EN only
+
+## Arabic QA
+| Dataset (paper) | Domain | Source | \# QA pairs in AR | Passage | Note
+| ------------- |:----- |:----- |:----- |:----- |:----- |
+| MKQA([Longpre et al., 2021](https://arxiv.org/abs/2007.15207)) | Open | NQ | 10K | No | Q-A aligned across lang (human translate)
+| XOR QA([Asai et al., 2020](https://arxiv.org/abs/2010.11856)) | Open | TydiQA | 3K | Yes | A: only cross-lang answers
+| TydiQA ([Clark et al., 2020](https://arxiv.org/abs/2003.05002)) | Open | Wikipedia | 26K | Yes | Q,A: from original language
+| XQuAD ([Artetxe et al., 2020](https://aclanthology.org/2020.acl-main.421/)) | Wikipedia| SQuAD | 1.2 K | Yes | Q,A,D: aligned cross lang (human translate)
+| MLQA ([Lewis et al., 2020](https://aclanthology.org/2020.acl-main.653/)) | Wikipedia | Wikipedia | 6K | Yes | Avg 4-way parallel (Q,A: human translate)
+| ARCD ([Mozannar et al., 2019](https://arxiv.org/pdf/1906.05394.pdf)) | Wikipedia | Wikipedia | 1.4K | Yes |
+| Arabic-SQuAD ([Mozannar et al., 2019](https://arxiv.org/pdf/1906.05394.pdf)) | Wikipedia | SQuAD | 48K | Yes | Machine translate
 
 ## Others
 
